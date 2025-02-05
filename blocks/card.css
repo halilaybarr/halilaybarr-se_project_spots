@@ -23,3 +23,7 @@
     background-color: transparent;
     opacity: 40%;
 }
+
+.card__title{
+    line-height: 1.2;
+}
