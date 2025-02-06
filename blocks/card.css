@@ -22,9 +22,21 @@
     opacity: 40%;
 }
 
+.card__like-btn:hover {
+    opacity: 100%;
+}
+
 .card__title{
     line-height: 24px;
     font-weight: 500;
+    max-width: 353px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    
 }
 
 @media screen and (max-width: 627px) {
