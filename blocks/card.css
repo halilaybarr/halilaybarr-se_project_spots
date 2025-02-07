@@ -32,7 +32,7 @@
     max-width: 353px;
     text-overflow: ellipsis;
     overflow: hidden;
-    line-clamp: 3;
+    
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -40,7 +40,22 @@
 }
 
 @media screen and (max-width: 627px) {
- .card__image {
+    .card__image {
     height: 288px;
- }
+    width: 288px;
+    margin: auto;
+    }
+
+    .card__title {
+     margin-top: 12px;
+     font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    }
+
+    .card__content {
+        justify-content: space-around;
+    }
 }

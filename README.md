@@ -1,6 +1,7 @@
 # Spots - An image sharing website
 
 ## Description
+  This website will be used by users to share and see each other's images.
   
 ## Tech Stack
 
