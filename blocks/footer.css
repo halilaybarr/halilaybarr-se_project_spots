@@ -6,8 +6,8 @@
     font-weight: 400;
     color: rgb(33, 33, 33, 0.7);
     margin: 0 auto;
-    width: 104px;
-    height: 16px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 60px;
 }
