@@ -13,6 +13,6 @@
 
 This website is deployed to Github Pages
 
-    - Deployment Link: https://github.com/halilaybarr/Sprint-3
+    - Deployment Link: https://halilaybarr.github.io/Sprint-3/index.html
   
 
