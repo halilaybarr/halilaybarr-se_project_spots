@@ -14,7 +14,7 @@ This website will be used by users to share and see each other's images.
 
 This website is deployed to Github Pages
 
-https://halilaybarr.github.io/Sprint-3/index.html
+https://halilaybarr.github.io/halilaybarr-se_project_spots
 
 ## Video explaining the project
 
