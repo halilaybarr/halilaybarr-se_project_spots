@@ -39,6 +39,7 @@
   cursor: pointer;
   transition: opacity 0.2s ease;
   padding: 0;
+  background-repeat: no-repeat;
 }
 
 .card__like-btn:hover,
@@ -121,4 +122,10 @@
     text-align: left;
     max-width: calc(100% - 40px); /* Leave space for like button */
   }
+
+  .card__delete-btn {
+    left: 245px;
+  }
+
+
 }
