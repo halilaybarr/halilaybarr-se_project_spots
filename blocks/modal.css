@@ -34,6 +34,7 @@
 .modal__container_type_preview {
   padding: 0;
   background: transparent;
+  width: unset;
 }
 
 .modal__image {
@@ -60,7 +61,7 @@
 .modal__close-btn_type_preview {
   background-image: url(../images/modal-close-icon.svg);
   top: 0px;
-  right: -40px;
+  right: -52.5px;
   opacity: 1;
   background-color: transparent;
   width: 40px;
