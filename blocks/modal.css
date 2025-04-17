@@ -127,8 +127,12 @@
 .modal__input-error {
   color: #ff0000;
   font-size: 12px;
-  display: block;
   margin-top: 5px;
+  visibility: hidden;
+}
+
+.modal__error_visible {
+  visibility: visible;
 }
 
 .modal__input_type_error {
@@ -188,6 +192,15 @@
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0%;
+  }
+
+  .modal__input-error {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    color: rgba(255, 0, 0, 0.7);
   }
 
   .modal__close-btn_type_preview {
