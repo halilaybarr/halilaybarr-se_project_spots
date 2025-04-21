@@ -151,3 +151,10 @@ function handleEscClose(evt) {
     }
   }
 }
+
+previewModal.addEventListener("click", function (evt) {
+  const outsideOfModal = !evt.target.closest(".modal__container");
+  if (outsideOfModal) {
+    closeModal(previewModal);
+  }
+});
