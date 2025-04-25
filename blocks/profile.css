@@ -77,6 +77,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-left: auto;
+  border: none;
 }
 
 @media screen and (max-width: 627px) {
