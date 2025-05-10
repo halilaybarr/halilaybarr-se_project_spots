@@ -1,3 +1,5 @@
+import { enableValidation, settings, disableButton } from "./validation.js";
+
 const initialCards = [
   {
     name: "Bridge",
@@ -158,3 +160,5 @@ previewModal.addEventListener("click", function (evt) {
     closeModal(previewModal);
   }
 });
+
+enableValidation(settings);
